@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Outlet, Link, useNavigate, useLocation } from 'react-router-dom';
 import {
     FaHome, FaUser, FaBuilding, FaSignOutAlt, FaMoon, FaSun,
-    FaBullhorn, FaBell, FaCheck, FaUserShield, FaTrophy
+    FaBullhorn, FaBell, FaCheck, FaUserShield, FaTrophy, FaTrash
 } from 'react-icons/fa';
 
 const Layout = () => {
